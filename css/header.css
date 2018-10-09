@@ -1,0 +1,120 @@
+#header {
+    height: 31px;
+    background-color: #f2f2f2;
+    margin-top: 0;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+#header .wrap {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#header .wrap .home {
+    padding: 0 20px;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: top;
+    margin-left: 20px;
+    background: url(../images/rslider.png) -4px -234px no-repeat;
+    float: left;
+}
+
+#header .header-top {
+    float: right;
+    margin-right: -22px;
+    font-size: 12px;
+}
+#header .header-top li {
+    float: left;
+    padding: 10px 6px;
+}
+#header .header-top li a {
+    display: inline-block;
+    position: relative;
+    padding: 0 18px;
+    color: #666;
+    border-right: 1px solid #ddd;
+}
+#header .header-top .myorder a .icon {
+    background: url(../images/rslider.png) 0px -539px no-repeat;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 2px;
+    left: -2px;
+}
+#header .header-top .shopping a .icon {
+    background: url(../images/rslider.png) 0px -427px no-repeat;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: -2px;
+    left: -6px;
+}
+#header .header-top .store a .icon {
+    background: url(../images/rslider.png) 0px -573px no-repeat;
+    width: 23px;
+    height: 20px;
+    position: absolute;
+    top: -2px;
+    left: -17px;
+}
+#header .header-top .store a {
+    border-right: none;
+}
+#header .header-top .store {
+    position: relative;
+    padding-left: 16px;
+}
+#header .header-top .server a {
+    padding:0px 9px;
+}
+#header .header-top .server .delta {
+    background: url(../images/rslider.png) -4px -229px;
+    width: 10px;
+    height: 5px;
+    display: inline-block;
+}
+#header .header-top .store a {
+    padding:0px 9px;
+}
+#header .header-top .store .delta {
+    background: url(../images/rslider.png) -4px -229px;
+    width: 10px;
+    height: 5px;
+    display: inline-block;
+}
+#header .header-top .server {
+    position: relative;
+}
+#header .header-top .server ol {
+    height: 104px;
+    width: 92px;
+    background-color: #f2f2f2;
+    margin-left: -12px;
+    padding-top: 2px;
+    display: none;
+    position: absolute;
+    z-index: 10;
+}
+#header .header-top .store ol {
+    height: 147px;
+    width: 100px;
+    background-color: #f2f2f2;
+    margin-left: -22px;
+    margin-top: 2px;
+    display: none;
+    position: absolute;
+    z-index: 10;
+}
+#header .header-top ol li {
+    padding: 10px 0;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+#header .header-top ol li:hover {
+    background-color: #e4e4e4;
+}

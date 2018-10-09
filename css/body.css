@@ -1,0 +1,208 @@
+#body_wrap {
+    /* background-repeat: repeat-x; */
+    background-position: center 0;
+    background-color: #ff8a8a;
+}
+.modul_row_show {
+    width: 960px;
+    margin: -3px auto;
+}
+.modul_row_show img {
+    width: 100%;
+}
+.menu_content {
+    height: 110px;
+}
+.item {
+    font-size: 18px;
+    height: 55px;
+    line-height: 55px;
+    width: 239px;
+    display: inline-block;
+    background-color: #fff;
+    text-align: center;
+    margin: 0 -4px;
+}
+.item0 {
+    background-color: rgb(255, 87, 119);
+    border-bottom: 0px solid rgb(154, 0, 0);
+    border-left: none;
+}
+.item1 {
+    color: rgb(51, 51, 51);
+    width: 239px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 0px solid rgb(255, 255, 255);
+    border-left: 1px solid rgb(221, 221, 221);
+}
+.item2 {
+    color: rgb(51, 51, 51);
+    width: 239px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 0px solid rgb(255, 255, 255);
+    border-top: 1px solid rgb(221, 221, 221);
+    border-left: none;
+}
+.item3 {
+    color: rgb(51, 51, 51);
+    width: 239px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 0px solid rgb(255, 255, 255);
+    border-left: 1px solid rgb(221, 221, 221);
+    border-top: 1px solid rgb(221, 221, 221);
+}
+
+.title_box {
+    margin-top: 0px;
+    color: #fff;
+    background: url(../images/goods-bg.png) no-repeat center;
+    height: 50px;
+}
+
+.title_box p {
+    line-height: 52px;
+    text-align: right;
+    font-size: 30px;
+    font-weight: 700;
+    margin-right: 55px;
+}
+.yahei {
+    font-family: Microsoft Yahei,arial,Hiragino Sans GB,å¾®è½¯é›…é»‘,å®‹ä½“,å®‹ä½“,Tahoma,Arial,Helvetica,STHeiti;
+}
+
+
+
+.shops_entry {
+    width: 960px;
+    margin: 0 auto;
+}
+ .single_goods {
+    width: 988px;
+    margin-left: -37px;
+    overflow: hidden;
+    margin-top: 30px;
+}
+.shop {
+    position: relative;
+    width: 219px;
+    height: 332px;
+    margin-left: 28px;
+    margin-bottom: 25px;
+    background-color: #fff;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.img_wrap {
+    position: relative;
+    display: block;
+    width: 220px;
+    height: 220px;
+    overflow: hidden;
+}
+.img_wrap img {
+    width: 100%;
+}
+a img {
+    border: 0;
+    vertical-align: middle;
+}
+.avator {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 40px;
+    z-index: 2;
+    margin-top: -20px;
+}
+
+.shop_img {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+}
+
+.avator img {
+    width: 100%;
+} 
+.title {
+    width: 100%;
+    color: #333;
+    text-align: center;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 5px;
+}
+.desc {
+    margin-top: 3px;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    height: 14px;
+    line-height: 14px;
+    overflow: hidden;
+    color: #FF5777;
+}
+.btn_bottom {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    width: 200px;
+    padding: 10px;
+}
+.coupon-box {
+    width: 93px;
+    color: #FF5E7D;
+    line-height: 32px;
+    text-align: center;
+    border: dashed 1px #FF5777;
+    border-radius: 2px;
+    font-size: 0;
+}
+.coupon-num {
+    display: block;
+    font-size: 22px;
+    cursor: pointer;
+}
+sup {
+    font-family: 'Microsoft YaHei';
+    display: inline-block;
+    font-style: normal;
+    height: 9px;
+    width: 7px;
+    line-height: 9px;
+    margin-top: 7px;
+    font-size: 16px;
+    margin-right: 4px;
+    vertical-align: text-top;
+}
+.coupon-num i {
+    font-size: 12px;
+    line-height: 14px;
+    margin-left: 2px;
+    font-style: normal;
+}
+.enter-shop {
+    display: block;
+    width: 97px;
+    height: 34px;
+    font-size: 14px;
+    color: #FFF;
+    line-height: 34px;
+    background-color: #FF5F7D;
+    border-radius: 2px;
+    text-align: center;
+}
+
+/* 尾部 */
+.mod_container .title {
+    margin-left: -50px;
+}
+.mod_container .title_last {
+    margin-left: -34px;
+}

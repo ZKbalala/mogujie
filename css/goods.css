@@ -1,0 +1,367 @@
+body {
+    background-color: #fff;
+}
+.special-div{
+	border-bottom: 1px solid #ddd;
+}
+.special{
+	width: 1200px;
+	margin: 0px auto;
+}
+.special div.head{
+	position: relative;
+}
+.special div.head:hover{
+	background: rgb(246, 246, 246);
+}
+.special div.head:hover .intro{
+	display: inline-block;
+}
+.special div.head::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.special::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.special div.left{
+	float: left;
+	width: 507px;
+}
+.special div.mei{
+	float: left;
+	margin-top: 15px;
+	margin-bottom: 13px;
+	margin-left: 20px;
+}
+.special div.mei img{
+	width: 40px;
+	border-radius: 50%;
+}
+.special div.mei a.img,
+.special i,
+.special div.mei span,
+.special div.concat a
+{
+	float: left;
+}
+.special div.mei span a{
+	text-decoration: none;
+	color: #333;
+	font-size: 14px;
+	/* font-weight: 400; */
+}
+.special p{
+    overflow: hidden;
+    width: 208px;
+    margin: 0;
+    padding: 0;
+}
+.special i{
+    width: 18px;
+    height: 20px;
+    background: url('../images/star.png') 0 -12px no-repeat;
+    background-size: 13px 26px;
+    display: inline-block;
+}
+ div.mei span span{
+ 	font-size: 12px;
+ 	color: #666;
+ }
+.special b{
+ 	color: #1aca60;
+ 	font-weight: 400;
+}
+.special b:nth-of-type(3){
+	color: #ef2f23;
+}
+.special div.concat{
+	padding-right: 28px;
+	margin-top: 20px;
+	float: right;
+	height: 40px;
+	border-right: 1px solid #eee;
+}
+.special a{
+	text-decoration: none;
+	font-size: 12px;
+	color: #666;
+    text-align: left;
+    margin-right: 8px;
+	
+}
+.special a.plus{
+	background: url('../images/head-mid.png') no-repeat;
+	background-position:4px -49px;
+	width: 82px;
+	line-height: 20px;
+	padding-left: 22px;
+	box-sizing: border-box;
+	margin-right: 10px;
+	border: 1px solid #ddd;
+}
+.special a.news{
+	width: 58px;
+	height: 20px;
+	background: url('../images/chat.gif') no-repeat;
+	margin-right: 7px;
+	background-position: 4px 0px;
+	border: 1px solid #ddd;
+}	
+.special a.sj{
+	position: relative;
+	top:10px ;
+	border: none;
+	width: 7px;
+	height: 7px;
+	background: url('../images/w-sanj.png') no-repeat;
+	background-position: -1px 1px;
+}
+.special div.concat div{
+	display: inline-block;
+	margin-top: 10px;
+}
+.special .intro{
+	width: 505px;
+	top: 80px;
+	left: 0px;
+	width: 100%;
+	position: absolute;
+	padding-right: 19px;
+	font-size: 12px;
+	line-height: 26px;
+	color: #333;
+	background: rgb(246, 246, 246);
+	box-sizing: border-box;
+	display: none;
+	z-index: 10;
+}
+.special aside.left{
+	float: left;
+	width: 240px;
+ 	border-right: 1px solid #dedede;
+}
+.special aside.left span{
+	text-align: right;
+	color: #999;
+	float: left;
+	width: 85px;
+}
+.special aside.left img{
+	width: 161px;
+	margin-left: 35px;
+	vertical-align: middle;
+}
+.special aside.left p{
+	margin: 10px 0px 3px;
+	text-align: center;
+}
+.special p a{
+	display: inline-block;
+    width: 100px;
+	color: #333;
+	text-align: center;
+	background: #fff;
+	border: 1px solid #d5d5d5;
+	line-height: 26px;
+}
+.special aside.right{
+	float: right;
+	width: 230px;
+	margin-left: 15px;
+	text-align: left;
+}
+.special aside.right li{
+	overflow: hidden;
+}
+.special aside.right span.compre{
+	width: 80px;
+}
+.special aside.right li>span:first-child{
+	float: left;
+}
+.special aside.right li span.compre{
+	float: right;
+}
+.special aside.right li:nth-of-type(1){
+	line-height: 28px;
+	color: #999;
+}
+.special aside.right span.compre{
+	width: 80px;
+}
+.special aside.right span span{
+	color: #fff;
+}
+.special .low{
+	color: #8dc341;
+}
+.special .high{
+	color: #f36;
+}
+.special .low-sp{
+	background: #8dc341;
+	line-height: 26px;
+	padding: 2px;
+}
+.special .high-sp{
+	background: #f36;
+	line-height: 26px;
+	padding: 2px;
+}
+.special aside.right .fir{
+	padding-bottom: 5px;
+	border-bottom: 1px dashed #dedede;
+}
+.special aside.right .sec{
+	padding-top: 5px;
+}
+
+.special ul.sec span:nth-of-type(1){
+	float: left;
+}
+.special ul.sec span:nth-of-type(2){
+	float: right;
+	width: 70px;
+	text-align: left;
+}
+.special ul.sec{
+	width: 220px;
+}
+.special div.right{
+	width: 585px;
+	float: right;
+	font-size: 12px;
+}
+.special form{
+	margin-top: 20px;
+	position: relative;
+}
+.special form::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.special input{
+	float: left;
+	outline: none;
+	border: none;
+	box-sizing: border-box;
+}
+.special input[type="text"]{
+	width: 380px;
+	border: 1px solid #f07;
+	line-height: 22px;
+	color: #999;
+	padding: 6px 0 6px 10px;
+	font-size: 12px;
+    background-color: #fff;
+}
+
+.special div.record{
+	width: 380px;
+	border: 1px solid #f07;
+	color: #999;
+	padding:10px;
+	box-sizing: border-box;
+	min-height: 286px;
+	position: absolute;
+	top: 36px;
+	left: 0px;
+	 background-color: #fff;
+	 border-top: none;
+	 display: none;
+}
+.special input[type="submit"]{
+	width: 100px;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	line-height: 36px;
+	background-image: linear-gradient(to right,#f25,#ff1581); 
+	border-radius: 5px;
+}
+.special input.b1{
+	margin-right: 3px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+.back-div {
+    width: 100%;
+    height: 150px;
+}
+.back-div .back{
+	min-width: 1200px;
+	background: url('../images/qy.jpg');
+    background-position: center center; 
+    width: 100%;
+    height: 100%;
+}
+.nav{
+	background:#333;/*  #000; */
+}
+.nav ul{
+	width: 1200px;
+	margin: 0px auto;
+}
+.nav ul::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.nav ul>li{
+	float: left;
+	padding: 7px 0px;
+}
+.nav a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+	line-height: 30px;
+	float: left;
+}
+.nav ul>li>a{
+	line-height: 16px;
+	padding: 0px 17px;
+	border-right: 1px solid #5c5c5c;
+}
+.nav li.border-no a{
+	border-right:none;
+}
+.nav li.wei{
+	position: relative;
+}
+.nav ol{
+	position: absolute;
+	top: 30px;
+	left: 0px;
+	width: 160px;
+	background-color: rgba(0,0,0,.75);
+	display: none; 
+	z-index: 10;
+}
+.nav i{
+	border-top: 5px solid #fff;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+	margin-left: 5px;
+	position: relative;
+	top: 11px;
+}
+.nav ol a{
+	font-size: 12px;
+	width: 108px;
+	padding: 0px 26px;
+	background: url('../images/small-sj.png') no-repeat;
+	background-position: 14px 13px;
+}
+.nav li.wei:hover ol{
+	display: inline-block;
+} 
+.nav ol a:hover{
+	background-color: #666;
+}

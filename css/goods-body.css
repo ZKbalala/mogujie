@@ -1,0 +1,340 @@
+body{
+    font-size: 12px;
+}
+.shop-detail {
+    width: 1200px;
+    margin: 0 auto;
+}
+.detail-primary {
+    background-color: #fff;
+    position: relative;
+    margin: 30px 0;
+    min-height: 680px;
+}
+.detail-primary .primary-goods {
+    position: relative;
+    width: 1058px;
+    background: #fff;
+    z-index: 7;
+}
+.goods-info {
+    width: 100%;
+    min-height: 530px;
+    float: left;
+}
+.goods-info .info-box {
+    padding: 0 90px 25px 431px;
+    /* overflow: hidden; */
+}
+.goods-title {
+    font-family: Microsoft YaHei,arial;
+    color: #333;
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 24px;
+    line-height: 25px;
+}
+.goods-info .goods-main {
+    width: 540px;
+    margin-left: -10px;
+    border-bottom: 1px solid #f3f3f3;
+    border-top: 1px solid #f3f3f3;
+    background: #f6f6f6;
+}
+.goods-info .goods-prowrap dl {
+    min-height: 32px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    position: relative;
+}
+.goods-info .goods-main dl {
+    padding-bottom: 0;
+}
+.goods-info .goods-prowrap dt {
+    color: #999;
+    position: absolute;
+    font-size: 12px;
+}
+.property-box .property-type {
+    height: 32px;
+    line-height: 32px;
+}
+.property-box .property-cont {
+    font-size: 14px;
+    color: #999;
+    height: 32px;
+    line-height: 32px;
+    float: left;
+}
+.goods-info .goods-prowrap dd {
+    padding-left: 60px;
+}
+.property-box .property-cont .price {
+    font-family: Microsoft YaHei,arial;
+}
+.property-box .ss {
+    text-decoration: line-through;
+}
+.property-box .price {
+    color: #ef2f23;
+    font-size: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 700;
+}
+.property-extra {
+    padding-left: 0;
+    line-height: 32px;
+    margin-right: 10px;
+    color: #999;
+    float: right;
+    font-size: 12px;
+}
+.mr10 {
+    margin-right: 10px!important;
+}
+.property-extra .num {
+    color: #333;
+}
+.promotions-box {
+    position: absolute;
+    z-index: 1;
+    width: 538px;
+    line-height: 32px;
+    color: #666;
+}
+.slide-up {
+    height: 32px;
+    overflow: hidden;
+    background: #f6f6f6;
+    padding: 1px 1px 0;
+}
+.promotions-box .title {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 10px;
+    color: #999;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    padding: 1px 0 0 1px;
+}
+.promotions-box .content {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+}
+.promotions-box .promotions-list {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+}
+.promotions-box .promotions-list .promotions-needget {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    width: 100%;
+    padding: 0 90px 4px 80px;
+    box-sizing: border-box;
+}
+.promotions-needget .no-get {
+    border: 1px solid #f57;
+}
+.promotions-needget .promotions-card {
+    display: inline-block;
+    line-height: 20px;
+    border-radius: 2px;
+    margin-right: 5px;
+}
+.promotions-card .promotions-card-text {
+    display: inline-block;
+    padding-left: 4px;
+    padding-right: 2px;
+    font-size: 12px;
+}
+.promotions-card-get {
+    color: #fff;
+    background: #f57;
+}
+.promotions-card-get {
+    display: inline-block;
+    padding: 0 3px;
+    cursor: pointer;
+    width: 30px;
+}
+.promotions-normal {
+    border-bottom: 1px solid #eee;
+    line-height: 25px;
+    width: 100%;
+    padding: 5px 90px 5px 80px;
+    display: block;
+}
+.promotions-box .promotions-more {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    /* font-size: 12px; */
+}
+.promotions-box .promotions-more .m-icon {
+    margin-left: 3px;
+    font-size: 12px;
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    /* background: url("../images/rslider.png") no-repeat 0 500px; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.goods-topimg {
+    margin-left: -100%;
+    width: 400px;
+    overflow: hidden;
+    float: left;
+}
+.goods-topimg .big-img {
+    width: 400px;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+.goods-topimg .big-img img {
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    padding: 0;
+}
+.goods-topimg .small-img {
+    position: relative;
+}
+.small-img .box {
+    margin-top: 10px;
+    padding: 0 32px;
+}
+.small-img .list {
+    overflow: hidden;
+    position: relative;
+    height: 59px;
+}
+.goods-topimg .small-img ul {
+    margin-right: -15px;
+    text-align: center;
+}
+.goods-topimg .small-img ul li {
+    width: 60px;
+    opacity: .5;
+    margin-right: 10px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+}
+.goods-topimg .small-img ul li i {
+    height: 2px;
+    width: 60px;
+    position: absolute;
+    left: 0;
+    display: none;
+    bottom: 4px;
+    border: none;
+    background: #ef2f23;
+}
+.small-img ul li.c {
+    opacity: 1;
+    border-bottom: 2px solid red;
+}
+.small-img ul img {
+    width: 60px;
+}
+.goods-topimg .small-img ul li.c i {
+    display: block;
+}
+
+
+
+.primary-slide {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    z-index: 6;
+    overflow: hidden;
+    border-left: 1px solid #eee;
+    padding-left: 20px;
+    margin-left: -140px;
+}
+.goods-recommend .title {
+    color: #666;
+    height: 14px;
+    line-height: 14px;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+.goods-recommend .title s {
+    position: absolute;
+    top: 7px;
+    margin-left: -50%;
+    width: 100%;
+    height: 0;
+    border-top: 1px solid #eee;
+    text-decoration: none;
+}
+.goods-recommend .title span {
+    font-size: 16px;
+    color: #999;
+    text-align: center;
+    width: 6em;
+    top: 0;
+    left: 50%;
+    margin-left: -3em;
+    background-color: #fff;
+    position: absolute;
+}
+.goods-recommend .list .box {
+    height: 650px;
+    overflow: hidden;
+    width: 120px;
+    position: relative;
+}
+.goods-recommend .list ul {
+    position: absolute;
+    margin-bottom: -20px;
+}
+.goods-recommend .list li {
+    margin-top: 11px;
+}
+.goods-recommend .list li:first-child {
+    margin-top: 1px;
+}
+.goods-recommend .list li a {
+    position: relative;
+    display: block;
+    background-color: #f5f5f5;
+    width: 120px;
+    height: 180px;
+    overflow: hidden;
+}
+.goods-recommend .list li div {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #333;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+

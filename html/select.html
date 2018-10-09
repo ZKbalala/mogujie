@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>搜商品</title>
+	<link rel="stylesheet" href="../css/select.css">
+	<script src="../js/jquery-1.11.1.js"></script>
+	<script src="../js/select.js"></script>
+</head>
+<body>
+	<header>
+		<div>
+			<span>
+				<span></span>
+				<span>蘑菇街首页</span>
+			</span>
+			<ul>
+				<li>	
+					<a href="#"><span class="sprite"></span> 商家后台 <span class="sprite"></span></a>
+					<ol class="business">
+						<li><a href="#">管理后台</a></li>
+						<li><a href="#">商家社区</a></li>
+						<li><a href="#">商家培训</a></li>
+						<li><a href="#">市场入驻</a></li>
+					</ol>
+				</li>
+				<li class="tw">
+					<a href="#">客户服务 <span  class="sprite"></span></a>	
+					<ol class="customer">
+						<li><a href="#">消费者服务</a></li>
+						<li><a href="#">商家服务</a></li>
+						<li><a href="#">规则中心</a></li>
+					</ol>
+				</li>
+				<li>			
+					<a  href="#"><span  class="sprite"></span> 购物车</a>
+					<ol class="buy">
+						<li>购物车里没有商品！</li>
+					</ol>
+				</li>
+				<li>	
+					<a  href="#"><span  class="sprite"></span> 我的订单</a>
+					<ol class="menu">
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ol>
+				</li>
+				<li class="five"><a href="#">登录</a></li>
+			</ul> 
+		</div>
+	</header>
+	<div class="search">
+		<aside>
+			<span class="left">
+				<span class="sprite"></span>
+				<span>全部商品分类</span>
+				<span class="sprite"></span>
+			</span>	
+		 	<form class="middle">
+		 		<span class="big">
+		 			<span class="text">搜商品 </span>
+		 			<span class="sprite"></span>
+		 		</span>
+				<input type="text">
+				<a href="#"><button>搜索</button></a>
+			</form> 
+		</aside>
+	</div>
+	<div class="no">
+		<aside>
+			<span class="left"></span>
+			<span class="right"></span>
+			<form class="middle">
+		 		<span class="big">
+		 			<span class="text">搜商品 </span>
+		 			<span class="text">搜店铺 </span>
+		 			<span class="sprite"></span>
+		 			<ul>
+		 				<li>商品</li>
+		 				<li>店铺</li>
+		 			</ul>
+		 		</span>
+				<input type="text">
+				<a href=""><button>搜索</button></a>
+			</form> 
+			<div class="small">
+				<a href="#">睡衣</a>
+				<a href="#">牛仔裤</a>
+				<a href="#">毛衣</a>
+				<a href="#">连衣裙</a>
+				<a href="#">小白鞋</a>
+				<a href="#">背带裤</a>
+				<a href="#">风衣</a>
+				<a href="#">卫衣</a>
+				<a href="#">外套</a>
+			</div>
+		</aside>
+	</div>
+	<section class="content">
+		<div class="fen">
+			<span class="sp1">所有分类<b>></b></span>
+		<!--   <span class="sp2">纯色<b class="close1">x</b></span> -->
+			<span class="clear-all"><b class="close2">x</b>清除所有</span>
+		</div>
+		<ul class="select">
+			<li>
+				<p>分类</p>
+				<div class="div-wrap">
+					<div class="divch">
+						<div>
+							<span>服饰鞋包</span>
+							<span>女装</span>
+							<span>上装</span>
+							<span>毛衣</span>
+							<span>女装上装毛衣套装/学生校服/工作制服</span>
+							<span>时尚套装</span>
+							<span>针织衫</span>
+							<span>男装</span>	
+						</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<p>风格</p>
+				<div class="div-wrap">
+					<div class="divch">
+						<div>
+							<span>简约</span>
+							<span>小清新</span>
+							<span>甜美</span>
+							<span>毛衣</span>
+							<span>百搭</span>
+							<span>通勤（OL）</span>
+							<span>韩系</span>
+							<span>原创</span>
+							<span>学院</span>
+							<span>男友风</span>
+							<span>原宿</span>
+							<span>文艺</span>
+							<span>复古</span>
+							<span>基本款</span>
+							<span>其他</span>
+							<span>性感</span>
+							<span>轻熟</span>
+							<aside>
+								<b class="wen">多选</b>
+								<b class="sj"><i></i></b>
+							</aside>							
+						</div>
+						<form action="#">
+							<input type="submit" value="确定">
+							<button>取消</button>
+						</form>
+					</div>
+				
+				</div>
+			</li>	
+			<li>
+				<p>图案</p>
+				<div class="div-wrap">
+					<div class="divch">
+						<div>
+							<span>纯色</span>
+							<span>条纹</span>
+							<span>色块</span>
+							<span>其他</span>
+							<span>格子</span>
+							<span>字母/文字/数字</span>
+							<span>几何</span>
+							<span>抽象图案</span>
+							<span>动物图案</span>
+							<span>花色</span>
+							<span>卡通动漫</span>
+							<span>圆点/波点</span>
+							<span>渐变</span>
+							<span>斑马纹</span>
+							<span>人物</span>
+							<span>千鸟格</span>
+							<aside>
+								<b class="wen">多选</b>
+								<b class="sj"><i></i></b>
+							</aside>
+						</div>
+						<form action="#">
+							<input type="submit" value="确定">
+							<button>取消</button>
+						</form>
+					</div>
+				</div>
+			</li>	
+			<li>
+				<p>颜色</p>
+				<div class="div-wrap">
+					<div class="divch">
+						<div>
+							<span>黑色</span>
+							<span>白色</span>
+							<span>蓝色</span>
+							<span>灰色</span>
+							<span>红色</span>
+							<span>杏色</span>
+							<span>黄色</span>
+							<span>米白色</span>
+							<span>卡其色</span>
+							<span>绿色</span>
+							<span>粉红色</span>
+							<span>紫色</span>
+							<span>咖啡色</span>
+							<span>酒红色</span>
+							<span>藏青</span>
+							<span>驼色</span>
+							<aside>
+								<b class="wen">多选</b>
+								<b class="sj"><i></i></b>
+							</aside>
+						</div>
+						<form action="#">
+							<input type="submit" value="确定">
+							<button>取消</button>
+						</form>
+					</div>
+				</div>
+			</li>
+			<li>
+				<p>元素</p>
+				<div class="div-wrap">
+					<div class="divch">
+						<div>
+							<span>撞色/拼色</span>
+							<span>柔软洗</span>
+							<span>落肩</span>
+							<span>Oversized</span>
+							<span>其他</span>
+							<span>系带</span>
+							<span>镂空</span>
+							<span>面料拼接</span>
+							<span>编织</span>
+							<span>不规则下摆</span>
+							<span>松紧</span>
+							<span>开叉</span>
+							<span>百褶（压褶）</span>
+							<span>成衣染色</span>
+							<span>蝴蝶结</span>
+							<span>前短后长</span>
+							<aside>
+								<b class="wen">多选</b>
+								<b class="sj"><i></i></b>
+							</aside>
+						</div>
+						<form action="#">
+							<input type="submit" value="确定">
+							<button>取消</button>
+						</form>
+					</div>
+				</div>
+			</li>	
+			<li class="shai">
+				<p>筛选</p>
+				<div class="div-wrap">
+					<div class="divch shai-div">
+						<span>尺码
+							<i></i>
+							<ol>
+								<li>均码</li>
+								<li>M</li>
+								<li>L</li>
+								<li>S</li>
+								<li>XL</li>
+								<li>3XL</li>
+								<li>XXL</li>
+								<li>2XL</li>
+								<li>XXXL</li>
+								<li>110cm</li>
+								<li>120cm</li>
+								<li>130cm</li>
+								<li>XS</li>
+								<li>100cm</li>
+								<li>90cm</li>
+								<li>4XL</li>
+							</ol>
+						</span>
+						<span>材质
+							<i></i>
+							<ol>
+								<li>针织</li>
+								<li>其他</li>
+								<li>聚酯纤维</li>
+								<li>腈纶</li>
+								<li>棉</li>
+								<li>粘胶纤维</li>
+								<li>粘胶</li>
+								<li>混纺</li>
+								<li>锦纶（尼龙）</li>
+								<li>复合</li>
+								<li>羊毛</li>
+								<li>涤纶（聚酯纤维）</li>
+								<li>牛仔布</li>
+								<li>锦纶</li>
+								<li>马海毛</li>
+							</ol>
+						</span>
+						<span>领型
+							<i></i>
+							<ol>
+								<li>圆领</li>
+								<li>其他领型</li>
+								<li>V领</li>
+								<li>半高领</li>
+								<li>高领</li>
+								<li>连帽</li>
+								<li>POLO领</li>
+								<li>娃娃领</li>
+								<li>立领</li>
+								<li>荷叶领</li>
+								<li>方领</li>
+								<li>一字领</li>
+								<li>半开领</li>
+							</ol>
+						</span>	
+						<span>袖型
+							<i></i>
+							<ol>
+								<li>常规袖</li>
+								<li>喇叭袖</li>
+								<li>蝙蝠袖</li>
+								<li>其他袖型</li>
+								<li>灯笼袖</li>
+								<li>插肩袖</li>
+								<li>泡泡袖</li>
+								<li>荷叶袖</li>
+								<li>衬衫袖</li>
+							</ol>
+						</span>	
+						<span>衣门襟
+							<i></i>
+							<ol>
+								<li>套头</li>
+								<li>单排扣</li>
+								<li>无扣</li>
+								<li>拉链</li>
+								<li>其他</li>
+								<li>多粒单排扣</li>
+								<li>系带</li>
+								<li>牛角扣</li>
+							</ol>
+						</span>	
+						<span>衣长
+							<i></i>
+							<ol>
+								<li>常规款（51-65cm）</li>
+								<li>中长款（66-80cm）</li>
+								<li>常规款</li>
+								<li>短款（41-50cm）</li>
+								<li>长款（81-100cm）</li>
+								<li>超短款（30-40cm）</li>
+								<li>短款</li>
+							</ol>
+						</span>	
+						<span>季节
+							<i></i>
+							<ol>
+								<li>秋季</li>
+								<li>秋冬</li>
+								<li>春秋</li>
+								<li>冬季</li>
+								<li>春季</li>
+								<li>夏季</li>
+								<li>四季</li>
+							</ol>
+						</span>																					
+					
+					</div>
+				</div>
+			</li>									
+		</ul>
+		<div class="a-link">
+			<span>您可能还想搜：</span>
+			<a href="#">花苞裤牛仔</a>
+			<a href="#">毛衣开衫</a>
+			<a href="#">秋季套装两件套</a>
+			<a href="#">卫衣长款夏季</a>
+			<a href="#">条纹裙</a>
+			<a href="#">哈伦裤套装女</a>
+			<a href="#">轻薄针织衫</a>
+			<a href="#">女外套春季</a>
+			<a href="#">卫衣套装女春季</a>
+			<a href="#"> t恤裙修身</a>
+		</div>
+		<div class="zong">
+			<span class="cli-red">综合</span> <!--class="cli-red"-->
+			<span>销量</span>
+			<span>新品</span>
+			<aside>
+				<form action="#">
+					<span class="fom-sp">￥<input type="text">
+					</span>
+					<span class="fom-mid">-</span>
+					<span class="fom-sp">￥<input type="text">
+					</span>
+				</form>
+				<span class="sure">确定</span>
+				<span class="pric">60-70</span>
+				<span class="pric prictw">70-80</span>
+				<span class="pric">80-90</span>
+			</aside>
+		</div>
+		<div class="nine">
+				<ul>
+					<li>
+						<a href="#">
+							<img src="../images/gs1.webp" alt="">
+							<aside class="bottom">
+								<p>2018秋季青少年男装套装时尚韩版休闲卫衣男士套装新款男生运动两件套</p>
+								<p>
+									<b>¥139</b>
+								    <del>¥ 240</del>
+								    <span>206</span>
+								</p>
+								<p>找相似</p>
+							</aside>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="../images/gs2.webp" alt="">
+							<aside class="bottom">
+								<p>秋装新款翻领风衣女秋2018韩版小个子抽绳收腰外套中长款工装服潮款上衣外套女</p>
+								<p>
+									<b>¥98</b>
+								    <del>¥ 140</del>
+								    <span>121</span>
+								</p>
+								<p>找相似</p>
+							</aside>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="../images/gs1.webp" alt="">
+							<aside class="bottom">
+								<p>2018秋季青少年男装套装时尚韩版休闲卫衣男士套装新款男生运动两件套</p>
+								<p>
+									<b>¥139</b>
+								    <del>¥ 240</del>
+								    <span>206</span>
+								</p>
+								<p>找相似</p>
+							</aside>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="../images/gs2.webp" alt="">
+							<aside class="bottom">
+								<p>秋装新款翻领风衣女秋2018韩版小个子抽绳收腰外套中长款工装服潮款上衣外套女</p>
+								<p>
+									<b>¥98</b>
+								    <del>¥ 140</del>
+								    <span>121</span>
+								</p>
+								<p>找相似</p>
+							</aside>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="../images/gs2.webp" alt="">
+							<aside class="bottom">
+								<p>秋装新款翻领风衣女秋2018韩版小个子抽绳收腰外套中长款工装服潮款上衣外套女</p>
+								<p>
+									<b>¥98</b>
+								    <del>¥ 140</del>
+								    <span>121</span>
+								</p>
+								<p>找相似</p>
+							</aside>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="../images/gs2.webp" alt="">
+							<aside class="bottom">
+								<p>秋装新款翻领风衣女秋2018韩版小个子抽绳收腰外套中长款工装服潮款上衣外套女</p>
+								<p>
+									<b>¥98</b>
+								    <del>¥ 140</del>
+								    <span>121</span>
+								</p>
+								<p>找相似</p>
+							</aside>
+						</a>
+					</li>
+				</ul>
+			</div>			
+	</section>
+	<footer>
+		<ul>
+			<li>
+				<b>-新手帮助-</b>
+				<ol>
+					<li><a href="#">常见问题</a></li>
+					<li><a href="#">自动服务</a></li>
+					<li><a href="#">联系客服</a></li>
+					<li><a href="#">意见反馈</a></li>
+				</ol>
+			</li>
+			<li>
+				<b>-权益保障-</b>
+				<ol>
+					<li>全国包邮</li>
+					<li>7天无理由退货</li>
+					<li>退货运费补贴</li>
+					<li>限时发货</li>
+				</ol>
+			</li>
+			<li>
+				<b>-支付方式-</b>
+				<ol>
+					<li>微信支付</li>
+					<li>支付宝</li>
+					<li>白付美支付</li>
+				</ol>
+			</li>
+			<li class="four">
+				<b>-移动客户端下载-</b>
+				<ol>
+					<li>蘑菇街<img src="../images/171023_3ef94c11e31g34lghgbac75k2e4fb_1000x1000.png" alt=""></li>
+					<li>美丽说<img src="../images/upload_5ii9f90fdide17hj3jkj3bfd121e3_280x280.png" alt=""></li>
+					<li>uni引力<img src="../images/upload_892b80cj47j51h95f44cai2e0b002_280x280.png" alt=""></li>
+				</ol>
+			</li>
+		</ul>
+		<div>
+		<span class="spa">
+			<a href="#">关于我们</a>
+			<a href="#">招聘信息</a>
+			<a href="#">联系我们</a>
+			<a href="#">商家入驻</a>
+			<a href="#">商家后台</a>
+			<a href="#">蘑菇商学院</a>
+			<a href="#">商家社区</a>
+			<a href="#">规则中心</a>
+			<a href="#">有害信息举报</a> <span>&copy;2018 Mogujie.com 杭州卷瓜网络有限公司</span>
+		</span>
+		<span class="spa2">		
+			<span class="a1">营业执照：<a href="#" class="a1">913301065526808764</a></span>
+			<span class="a1">网络文化经营许可证：<a href="#">浙网文（2016）0349-219号</a></span>
+			<span class="a1">增值电信业务经营许可证：<a href="#">浙B2-20110349</a></span>
+			<span class="a1"><a href="#" class="a1">安全责任书</a></span>
+			<span class="a1"><a href="#" class="a1">浙公网安备 33010602002329号</a></span>
+			<span class="a1"><a href="#" class="a1">互联网药品信息服务资格证书编号：（浙)-经营性-2018-0002</a></span>
+			<span class="a1"><a href="#" class="a1">浙网食A33010003</a></span>
+			<span class="a1"><a href="#" class="a1">出版物网络交易平台服务经营备案证</a></span>
+			<span class="a1"><a href="#" class="a1">（浙）网械平台备字[2018]第00006号</a></span>
+		</span>
+		</div>
+	</footer>
+	<aside class="nav">
+		<div class="troley">
+			<a href="#">
+				<span class="nav-sprite"></span>
+				<span>购物车</span>
+			</a>
+		</div>
+		<div>
+			<a href="#">
+				<span class="nav-sprite card"></span>
+				<span>优惠券</span>
+			</a>
+		</div>
+		<div>
+			<a href="#">
+				<span class="nav-sprite wallet"></span>
+				<span>钱包</span>
+			</a>
+		</div>
+		<div>
+			<a href="#">
+				<span class="nav-sprite foot"></span>
+				<span>足迹</span>
+			</a>
+		</div>
+		<div class="img">
+			<a href="#">
+				<span class="scan"></span>
+				<img src="../images/180521_73ibbgh52kj2dceg869h50b0bgfl6_181x200.png" alt="">
+			</a>
+		</div>
+		<div class="top">
+			<a href="#">
+				<span class="nav-sprite"></span>
+			</a>
+		</div>
+	</aside>	
+</body>
+</html>

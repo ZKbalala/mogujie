@@ -1,0 +1,93 @@
+
+/* 右侧导航栏 */
+.mgj_rightbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    z-index: 9999;
+    width: 30px;
+    color: #fff;
+    font-size: 12px;
+    background-color: #202020;
+}
+.mgj_rightbar_blank {
+    position: relative;
+    top: 0;
+    right: 0;
+    height: 10%;
+    width: 30px;
+}
+.mgj_rightbar .sidebar {
+    position: relative;
+    padding: 4px 4px 0;
+    text-align: center;
+    background: #202020;
+}
+.mgj_rightbar .sidebar a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    line-height: 15px;
+    border-bottom: 1px solid rgba(221,221,221,.6);
+    padding-bottom: 12px;
+}
+
+.mgj_rightbar .sidebar .icon {
+    background-image: url(../images/rslider.png);
+    background-repeat: no-repeat;
+}
+.mgj_rightbar .sidebar .icon {
+    background-position: -5px;
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+.mgj_rightbar .mgj-my-cart .icon {
+    background-position: -271px -129px;
+}
+.mgj_rightbar .mgj-my-card .icon {
+    background-position: -271px -159px;
+}
+.mgj_rightbar .mgj-my-foot .icon {
+    background-position: -271px -189px;
+}
+.mgj_rightbar .mgj-my-money .icon {
+    background-position: -271px -219px;
+}
+.mgj_rightbar .mgj-my-top .icon {
+    background-position: -270px -279px;
+}
+.mgj_rightbar .mgj-my-top {
+    position: fixed;
+    bottom: 0;
+    height: 30px;
+    margin-bottom: 10px;
+    padding:0px 4px 0px;
+}
+.mgj_rightbar .mgj-my-top a {
+    border-bottom: none;
+    border-top: 1px solid rgba(221,221,221,.6);
+    padding: 4px auto;
+}
+.mgj_rightbar .sidebar:hover {
+    background-color: #ef2f23;
+    margin-top: -1px;
+}
+
+.mgj_rightbar .img a img{
+    position: absolute;
+    width: 181px;
+    height: 200px;
+    left: -176px;
+    top: -13px;
+    display: none;
+}
+.mgj_rightbar .img a .scan {
+    width: 16px;
+    height: 16px;
+    display: block;
+    background: url("../images/small-er.png") center no-repeat;
+    margin-top: 7px;
+    margin-left: 3px;
+}
