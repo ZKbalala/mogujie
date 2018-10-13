@@ -42,7 +42,7 @@
     width: 20px;
     height: 20px;
     position: absolute;
-    top: 2px;
+    top: 4px;
     left: -2px;
 }
 #header .header-top .shopping a .icon {
@@ -50,7 +50,7 @@
     width: 20px;
     height: 20px;
     position: absolute;
-    top: -2px;
+    top: 0px;
     left: -6px;
 }
 #header .header-top .store a .icon {
@@ -90,7 +90,7 @@
     position: relative;
 }
 #header .header-top .server ol {
-    height: 104px;
+    /* height: 104px; */
     width: 92px;
     background-color: #f2f2f2;
     margin-left: -12px;
@@ -100,7 +100,7 @@
     z-index: 10;
 }
 #header .header-top .store ol {
-    height: 147px;
+    /* height: 147px; */
     width: 100px;
     background-color: #f2f2f2;
     margin-left: -22px;

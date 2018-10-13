@@ -1,17 +1,17 @@
 
 $(function () {
     // 头部
-    $("#header>.wrap>.header-top>.server>a").mouseenter(function () {
-        $(this).next().show();
+    $("#header>.wrap>.header-top>.server").mouseenter(function () {
+        $(this).children().eq(1).show();
     });
-    $("#header>.wrap>.header-top>.server>a").mouseleave(function () {
-        $(this).next().hide();
+    $("#header>.wrap>.header-top>.server").mouseleave(function () {
+        $(this).children().eq(1).hide();
     });
-    $("#header>.wrap>.header-top>.store>a").mouseenter(function () {
-        $(this).next().show();
+    $("#header>.wrap>.header-top>.store").mouseenter(function () {
+        $(this).children().eq(1).show();
     });
-    $("#header>.wrap>.header-top>.store>a").mouseleave(function () {
-        $(this).next().hide();
+    $("#header>.wrap>.header-top>.store").mouseleave(function () {
+        $(this).children().eq(1).hide();
     });
     
     $("#nav_search_form>.search_inner_box>.selectbox>.selected").mouseenter(function () {
