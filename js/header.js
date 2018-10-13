@@ -87,5 +87,13 @@ $(function () {
         $(this).css("overflow", "hidden");
         $(this).css("background-color", "#f6f6f6");
     });
+
+    //分享
+    $(".info-box>.goods-social>.share").mouseenter(function () {
+        $(this).children().eq(1).show();
+    });
+    $(".info-box>.goods-social>.share").mouseleave(function () {
+        $(this).children().eq(1).hide();
+    });
     
 });

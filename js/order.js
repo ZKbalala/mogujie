@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2018-10-05 21:26:47
 * @Last Modified by:   Administrator
-* @Last Modified time: 2018-10-07 16:51:02
+* @Last Modified time: 2018-10-12 20:30:50
 */
 $(function(){
 	$('header ul>li').hover(function() {
@@ -35,7 +35,7 @@ $(function(){
 		}
 	});
 
-	/*测导航事件*/
+	/*测导航伸缩事件*/
 	function naeve(){
 		$('aside.nav').stop();
 		$('aside.nav div.troley').stop();
@@ -46,7 +46,12 @@ $(function(){
 				'background': 'rgba(0, 0, 0, 0.8)'
 			});
 			$('aside.nav div.troley').animate({'left':'-30px'})
-			
+			$('aside.nav div.troley').mouseenter(function(event) {
+				$(this).css('background', 'red');
+			});
+			$('aside.nav div.troley').mouseleave(function(event) {
+				$(this).css('background', 'rgba(0, 0, 0, 0.8)');
+			});
 		}
 		else{
 			$('aside.nav').animate({'right':'0px'});
@@ -55,12 +60,19 @@ $(function(){
 				'background': 'none'
 			});;
 			$('aside.nav div.troley').animate({'left':'0px'})
+			$('aside.nav div.troley').mouseenter(function(event) {
+				$(this).css('background', 'red');
+			});
+			$('aside.nav div.troley').mouseleave(function(event) {
+				$(this).css('background', 'none');
+			});
 		}
 	}
 	naeve();
 	$(window).resize(function(event) {
 		naeve();
 	});
+
 
 
 })

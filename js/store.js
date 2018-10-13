@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2018-09-28 18:47:47
 * @Last Modified by:   Administrator
-* @Last Modified time: 2018-10-08 00:41:46
+* @Last Modified time: 2018-10-13 11:02:04
 */
 $(function(){
 	 /*搜索栏里搜商品那一块*/
@@ -30,7 +30,7 @@ $(function(){
 	}, function() {
 		$(this).children('ol').hide()
 	});
-	/*测导航事件*/
+/*测导航伸缩事件*/
 	function naeve(){
 		$('aside.nav').stop();
 		$('aside.nav div.troley').stop();
@@ -41,7 +41,13 @@ $(function(){
 				'background': 'rgba(0, 0, 0, 0.8)'
 			});
 			$('aside.nav div.troley').animate({'left':'-30px'})
+			$('aside.nav div.troley').mouseenter(function(event) {
+				$(this).css('background', 'red');
+			});
+			$('aside.nav div.troley').mouseleave(function(event) {
+				$(this).css('background', 'rgba(0, 0, 0, 0.8)');
 			
+			});
 		}
 		else{
 			$('aside.nav').animate({'right':'0px'});
@@ -50,6 +56,12 @@ $(function(){
 				'background': 'none'
 			});;
 			$('aside.nav div.troley').animate({'left':'0px'})
+			$('aside.nav div.troley').mouseenter(function(event) {
+				$(this).css('background', 'red');
+			});
+			$('aside.nav div.troley').mouseleave(function(event) {
+				$(this).css('background', 'none');
+			});
 		}
 	}
 	naeve();
