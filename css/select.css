@@ -2,12 +2,15 @@
 * @Author: admin
 * @Date:   2018-09-28 15:42:27
 * @Last Modified by:   Administrator
-* @Last Modified time: 2018-10-12 21:52:58
+* @Last Modified time: 2018-10-17 17:38:12
 */
 *{
 	margin: 0px;
 	padding: 0px;
 	list-style: none;
+}
+body{
+	min-width: 1200px;
 }
 header{
 	background: #f2f2f2;
@@ -279,6 +282,7 @@ header .buy li{
 	height: 10px;
 }
 .middle{
+	height: 33px;
 	width: 481px;
 	margin: 0px auto;
 	border: 1px solid #ff0077;
@@ -288,9 +292,11 @@ header .buy li{
     margin-top: 8px;
 }
 .middle span.big{
-	cursor: pointer;
-	position: relative;
-	padding: 10px 0px;
+	float: left;
+    cursor: pointer;
+    position: relative;
+    padding: 0px 0px 10px;
+    line-height: 32px;
 }
  .middle .sprite{
 	width: 10px;
@@ -300,7 +306,7 @@ header .buy li{
 .middle span ul{
 	position: absolute;
 	width: 62px;
-	top: 40px;
+	top: 34px;
 	left: -1px;
 	border-bottom: 1px solid #ccc;
 	display: none;
@@ -321,10 +327,14 @@ header .buy li{
 	background: pink;
 }
 .middle input{
+	float: left;
 	border: none;
 	outline: none;
 	width: 314px;
 	height: 33px;
+}
+.middle a {
+    float: right;
 }
  .middle button{
 	width: 102px;
@@ -754,8 +764,14 @@ div.fen span.clear-all b.close2{
 	 height: 50px; 
 }
 .content ul.select div.divch div{
-	width: 636px;
+	width: 670px;
+	overflow: hidden;
 }
+/* .content ul.select div.divch div::after{
+	content: '';
+	display: block;
+	clear: both;
+} */
 .content ul.select form{
 	width: 620px;
 	text-align: center;
@@ -785,6 +801,8 @@ div.fen span.clear-all b.close2{
 .content ul.select span{
 	margin-right: 30px;
 	cursor: pointer;
+	font-family: tahoma, arial, sans-serif;
+	float: left;
 }
 .content ul.select span:hover{
 	text-decoration: underline;
@@ -960,6 +978,12 @@ ul.select div.shai-div li:hover{
 	background: #e5e5e5;
 	margin-left: 20px;
 	vertical-align: middle;
+}
+.content li.color form{
+	margin-top: 10px;
+}
+.content li.element form{
+	margin-top: 8px;
 }
 footer{
 	margin: 60px auto 54px;

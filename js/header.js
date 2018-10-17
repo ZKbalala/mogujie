@@ -77,6 +77,24 @@ $(function () {
         $(".hotQuestion>.tabPanel>.tabContent").eq(s).siblings().hide();
     });
 
+    //图片展示
+    $('.goods-topimg>.small-img>.box>.list>ul>li').mouseenter(function() {
+        $(this).addClass('c');
+
+        if($(this).index() == 0){
+            $('.goods-topimg>.big-img>img').attr('src','../images/180813_8e957a5c7eckk067980h160h69079_640x960.jpg_468x468.jpg');
+        }else if($(this).index() == 1){
+            $('.goods-topimg>.big-img>img').attr('src','../images/180813_15l31aa84393256i109gkl271e03b_640x960.jpg_468x468.jpg');
+        }else if($(this).index() == 2){
+            $('.goods-topimg>.big-img>img').attr('src','../images/180813_82dj2076e66e8h069e8d6f5kag66h_640x960.jpg_468x468.jpg');
+        }else{
+            $('.goods-topimg>.big-img>img').attr('src','../images/180813_2gga8gfdkfae3h9if49ilecl24j06_640x960.jpg_468x468.jpg');
+        }
+    });
+    $('.goods-topimg>.small-img>.box>.list>ul>li').mouseleave(function() {
+        $(this).removeClass('c');
+    });
+
     //商品详情
     $(".goods-main>.slide-up").mouseenter(function () {
         $(this).css("overflow", "visible");
@@ -96,4 +114,37 @@ $(function () {
         $(this).children().eq(1).hide();
     });
     
+    //扩展栏
+    $(".detail-content>.col-extra>.qrcode").mouseenter(function () {
+        $(this).children().eq(3).addClass('n');
+    });
+    $(".detail-content>.col-extra>.qrcode").mouseleave(function () {
+        $(this).children().eq(3).removeClass('n');
+    });
+
+    $(".detail-content>.col-extra>.qrcode").mouseenter(function () {
+        $(this).children().eq(1).show();
+    });
+    $(".detail-content>.col-extra>.qrcode").mouseleave(function () {
+        $(this).children().eq(1).hide();
+    });
+
+    $(".detail-content>.col-extra>.extranav-bd>ul>li").click(function () {
+        $(this).addClass('selected').siblings().removeClass('selected');
+    });
+    
+    $(window).scroll(function (event) {
+        if($(window).scrollTop() !=0) {
+            console.log($(window).scrollTop());
+        }
+    });
+
+    //本店同类商品
+    $('.tabbar-box>ul>li:nth-of-type(3)').click(function(event) {
+        
+        // $('body').animate({
+        //     scrollTop: $('.recommendlist>.panel-title>h1').offset().top
+        // }, 1000)
+        $(window).scrollTop($('.recommendlist>.panel-title>h1').offset().top);
+    });
 });

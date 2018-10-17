@@ -1,8 +1,8 @@
 /*
 * @Author: Administrator
 * @Date:   2018-10-05 08:26:39
-* @Last Modified by:   Administrator
-* @Last Modified time: 2018-10-13 10:47:29
+* @Last Modified by:   admin
+* @Last Modified time: 2018-10-17 18:31:00
 */
 *{
 	margin: 0px;
@@ -314,6 +314,7 @@ div.log div.right aside.four{
 div.log div.right span{
 	color:#999 ;
 	font-size: 12px;
+	float: left;
 }
 div.log div.right hr.fir{
 	margin-left: -1px;

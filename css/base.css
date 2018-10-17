@@ -22,3 +22,6 @@ ul,ol {
 .fr {
     float: right;
 }
+table {
+    border-collapse: collapse;
+}

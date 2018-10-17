@@ -2,7 +2,7 @@
 * @Author: admin
 * @Date:   2018-08-29 20:15:15
 * @Last Modified by:   Administrator
-* @Last Modified time: 2018-10-12 20:39:58
+* @Last Modified time: 2018-10-17 12:58:52
 */
 *{
 	margin: 0px;
@@ -264,6 +264,7 @@ header .buy li{
 	height: 10px;
 }
  .middle{
+ 	height: 33px;
 	width: 481px;
 	margin: 0px auto;
 	border: 1px solid #ff0077;
@@ -271,6 +272,9 @@ header .buy li{
 	border-bottom-right-radius: 5px;
 	display: inline-block;
     margin-top: 8px;
+}
+.middle a{
+	float: right;
 }
 span.text{	
 	margin-left: 10px;
@@ -281,9 +285,11 @@ span.text:nth-of-type(2){
 	display: none;
 }
 .middle span.big{
+	float: left;
 	cursor: pointer;
 	position: relative;
-	padding: 10px 0px;
+	padding: 0px 0px 10px;
+	line-height: 32px;
 }
  .middle .sprite{
 	width: 10px;
@@ -293,7 +299,7 @@ span.text:nth-of-type(2){
 .middle span ul{
 	position: absolute;
 	width: 62px;
-	top: 40px;
+	top: 34px;
 	left: -1px;
 	border-bottom: 1px solid #ccc;
 	display: none;
@@ -314,6 +320,7 @@ span.text:nth-of-type(2){
 	background: pink;
 }
 .middle input{
+	float: left;
 	color: #999;
 	border: none;
 	outline: none;
@@ -453,6 +460,7 @@ span.text:nth-of-type(2){
 	z-index: 1;
 }
 .theme-bottom>li>span{
+	float: left;
 	margin-left: 17px;
 	color: #333;
 	font-size:12px; 
@@ -496,11 +504,16 @@ span.text:nth-of-type(2){
 	text-decoration: none;
 }
 .theme-bottom>li{
-	line-height: 28px;
+	line-height: 30px;
 	box-sizing: border-box;
 	padding-left: 9px;
 	border-left: 2px solid transparent;
 	position: relative;
+}
+.theme-bottom>li::after{
+	content: '';
+	display: block;
+	clear: both;
 }
 .theme-bottom>li:hover{
 	background: #fff;
@@ -586,9 +599,9 @@ span.text:nth-of-type(2){
 .theme-bottom>li:nth-of-type(14) .hid-div{
 	top: -410px;
 }
-.theme-bottom>li:nth-of-type(4) .hid-div .left{
+/* .theme-bottom>li:nth-of-type(4) .hid-div .left{
 	padding: 1px 20px 4px;
-}
+} */
 .theme-bottom>li:nth-of-type(6) .hid-div .left{
 	padding:17px 20px;
 }

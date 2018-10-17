@@ -497,7 +497,7 @@ body{
     position: relative;
 }
 .goods-topimg .small-img ul li i {
-    height: 2px;
+    height: 3px;
     width: 60px;
     position: absolute;
     left: 0;
@@ -763,13 +763,16 @@ body{
     font-style: normal;
 }
 .repeat .ui-bd ul li .fav .fav-i {
-    display: inline-block;
+    /* display: inline-block; */
+    float: left;
     width: 13px;
     height: 12px;
-    background: url(https://s10.mogucdn.com/p1/150924/upload_ieytmmbvgy3tsndegmzdambqmeyde_32x300.png) no-repeat 0 -200px;
+    background: url('../images/upload_ieytmmbvgy3tsndegmzdambqmeyde_32x300\ \(1\).png') no-repeat 0 -200px;
 }
 .repeat .ui-bd ul li .fav .fav-n {
-    margin-left: 3px;
+    margin-left: 4px;
+    margin-top: -3px;
+    float: left;
     color: #999;
     font-size: 12px;
     font-family: Microsoft YaHei\,arial;
@@ -779,6 +782,7 @@ body{
     height: 14px;
     margin-left: 20px;
     font-size: 0;
+    margin-top: 6px;
 }
 
  .col-main {
@@ -820,29 +824,241 @@ body{
     font-size: 12px;
     color: #999;
 } 
-/* .panel-box .split-image {
+.panel-box .split-image {
     padding-left: 19px;
     padding-right: 19px;
 }
 .panel-box .panel-title {
     padding: 40px 0 20px;
-} */
-/* .panel-title h1 {
-    float: left;
-    
+} 
+.panel-title h1 {    
     line-height: 18px;
-    
+    float: left;
     padding-bottom: 4px;
     border-bottom: 1px solid #333;
     color: #333;
     font-size: 18px;
     font-family: Microsoft YaHei\, arial;
-} */
-/* .graphic-text {
-    white-space: pre-wrap;
+}
+.graphic-text {
     line-height: 18px;
-    margin: -2px 0 18px;
+    margin: 18px 0 18px;
     color: #666;
     font-size: 14px;
     font-family: Microsoft YaHei\, arial;
-} */
+}
+.m {
+    margin-top: 20px;
+}
+.pic-box img {
+    width: 100%;
+}
+.parameter-table td {
+    width: 19%;
+    height: 34px;
+    border: 1px solid #eee;
+    padding: 0 0 0 10px;
+    color: #666;
+    font-size: 12px;
+}
+.size-table thead tr {
+    height: 32px;
+    background: #f2f2f2;
+}
+.size-table td {
+    width: 88px;
+    height: 34px;
+    text-align: center;
+    padding: 0 0 0 10px;
+    color: #666;
+    border-bottom: 1px solid #eee;
+}
+.size-text {
+    line-height: 16px;
+    margin: 18px 0 18px;
+    color: #999;
+    font-size: 12px;
+    font-family: Microsoft YaHei\,arial;
+}
+.recommend-list {
+    padding-bottom: 10px;
+}
+.recommend-list ul {
+    overflow: hidden;
+    margin-left: 18px;
+}
+.recommend-list li {
+    float: left;
+    width: 160px;
+    height: 289px;
+    margin: 0 20px 30px 0;
+}
+.recommend-list li .pic {
+    overflow: hidden;
+    height: 240px;
+    width: 100%;
+    display: block;
+}
+.recommend-list li .title {
+    display: block;
+    height: 14px;
+    line-height: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    margin-top: 10px;
+    color: #333;
+    font-size: 14px;
+}
+.recommend-list li .info {
+    margin-top: 10px;
+}
+.module-recommend .recommend-list li .price {
+    float: left;
+    height: 14px;
+}
+.recommend-list li .price em {
+    font-family: Microsoft YaHei\,arial;
+    font-style: normal;
+    display: inline-block;
+    line-height: 14px;
+    color: #333;
+    font-size: 14px;
+}
+.recommend-list li .fav {
+    float: left;
+    height: 12px;
+    margin-left: 65px;
+    margin-top: -17px;
+}
+.recommend-list li .fav .fav-i {
+    display: inline-block;
+    width: 13px;
+    height: 12px;
+    line-height: 12px;
+    background: url('../images/upload_ieytmmbvgy3tsndegmzdambqmeyde_32x300\ \(1\).png') no-repeat 0 -200px;
+}
+.recommend-list li .fav .fav-n {
+    margin-left: 3px;
+    color: #999;
+    font-size: 12px;
+    font-family: Microsoft YaHei\,arial;
+    max-width: 36px;
+    display: inline-block;
+    line-height: 12px;
+}
+.detail-content {
+    position: relative;
+}
+.col-extra {
+    height: 100%;
+    width: 240px;
+    position: absolute;
+    right: 0;
+    top: -1px;
+    border: 1px solid #e5e5e5;
+
+}
+.col-extra .qrcode {
+    z-index: 1000;
+    border-top: 1px solid #e5e5e5;
+    position: relative;
+    width: 239px;
+    height: 58px;
+    background: #f6f6f6;
+    display: inline-block;
+    border-right-width: 0;
+    cursor: pointer;
+}
+.detail-content .ui-fixed {
+    position: fixed!important;
+    top: 0;
+}
+.col-extra .qrcode .qrcode-togger {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 239px;
+    padding: 0 20px;
+    text-align: left;
+    line-height: 58px;
+    font-family: Microsoft YaHei\,arial;
+    font-size: 12px;
+    color: #666;
+}
+.col-extra .qrcode .qrcode-pic {
+    display: none;
+    position: absolute;
+    z-index: 1001;
+    top: 58px;
+    left: 0;
+    border: 1px solid #ddd;
+    padding: 30px;
+    width: 239px;
+    height: 239px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #fff url('../images/2r6z_ieygeylemy4tonlbmiytambqhayde_46x46.gif') no-repeat 50%;
+}
+.col-extra .qrcode .qrcode-pic img {
+    display: block;
+    width: 100%;
+}
+.col-extra .qrcode .qrcode-mini {
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    width: 20px;
+    height: 20px;
+    background: url('../images/upload_ieytmmbvgy3tsndegmzdambqmeyde_32x300.png') no-repeat 0 0;
+}
+.col-extra .qrcode .qrcode-arrow {
+    position: absolute;
+    top: 28px;
+    right: 80px;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 5px solid #bbb;
+    border-bottom-width: 0;
+}
+.col-extra .qrcode .n {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top-width: 0;
+    border-bottom: 5px solid #bbb;
+}
+
+.extranav-bd ul {
+    width: 204px;
+    margin: 15px 18px 0;
+}
+.extranav-bd ul li {
+    height: 30px;
+    line-height: 30px;
+    margin: 7px 0;
+    cursor: pointer;
+}
+.extranav-bd ul li a {
+    display: inline-block;
+    line-height: 14px;
+    padding-left: 16px;
+    margin-left: 57px;
+    color: #666;
+    font-size: 14px;
+    font-family: Microsoft YaHei\,arial;
+    background: url('../images/upload_ieytmmbvgy3tsndegmzdambqmeyde_32x300.png') no-repeat 0 -158px;
+}
+.extranav-bd ul li.selected, .extranav-bd ul li:hover { 
+    background: url('../images/upload_ie2wgnrtmy4tim3bgmzdambqhayde_204x30.png') no-repeat;
+}
+.extranav-bd ul li.selected a, 
+.extranav-bd ul li:hover a {
+    color: #333;
+    font-weight: 700;
+    background-position: 0 -238px;
+}
+.foot {
+    padding-top: 135px;
+}

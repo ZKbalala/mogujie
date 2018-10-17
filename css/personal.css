@@ -1,8 +1,8 @@
 /*
 * @Author: Administrator
 * @Date:   2018-10-13 10:22:59
-* @Last Modified by:   Administrator
-* @Last Modified time: 2018-10-13 11:24:31
+* @Last Modified by:   admin
+* @Last Modified time: 2018-10-17 18:26:00
 */
 *{
 	margin: 0px;
@@ -177,6 +177,7 @@ header ul li.cang a{
 }
 
  .middle{
+ 	height: 33px;
 	width: 481px;
 	margin: 0px auto;
 	border: 1px solid #ff0077;
@@ -194,9 +195,11 @@ span.text:nth-of-type(2){
 	display: none;
 }
 .middle span.big{
-	cursor: pointer;
-	position: relative;
-	padding: 10px 0px;
+	float: left;
+    cursor: pointer;
+    position: relative;
+    padding: 0px 0px 10px;
+    line-height: 32px;
 }
  .middle .sprite{
 	width: 10px;
@@ -206,7 +209,7 @@ span.text:nth-of-type(2){
 .middle span ul{
 	position: absolute;
 	width: 62px;
-	top: 40px;
+	top: 34px;
 	left: -1px;
 	border-bottom: 1px solid #ccc;
 	display: none;
@@ -232,6 +235,10 @@ span.text:nth-of-type(2){
 	outline: none;
 	width: 314px;
 	height: 33px;
+	float: left;
+}
+.middle a {
+    float: right;
 }
  .middle button{
 	width: 102px;
@@ -310,6 +317,425 @@ span.text:nth-of-type(2){
 {
 	color: #ff0077; 
 }
+
+section{
+	width: 1200px;
+	margin: 0px auto;
+}
+section::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+section>aside.left_wrap{
+	float: left;
+	background: #fafafa;
+	margin-right: 20px;
+}
+aside.left_wrap div{
+	width: 140px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	height: 142px;
+	line-height: 142px;
+	font-size: 12px;
+	text-align: center;
+}
+aside.left_wrap ul{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 40px;
+	box-sizing: border-box;
+}
+aside.left_wrap a.title{
+	line-height: 56px;
+	color: #333;
+	font-size: 16px;
+	text-decoration: none;
+	margin-right: 6px;
+}
+aside.left_wrap span.san{
+	display: inline-block;
+	vertical-align:super;
+	width: 5px;
+	height: 5px;
+	border: 2px solid #999;
+	border-top: none;
+	border-left: none;
+	transform: rotate(-45deg);
+ 	transition: 1s;
+    margin-bottom: -3px;
+}
+aside.left_wrap ul>li{
+	cursor: pointer;
+	overflow: hidden;
+	border-top: 1px solid #e1e1e1;
+}
+aside.left_wrap ol a{
+	color: #666;
+	line-height: 26px;
+	text-decoration: none;
+	font-size: 12px;
+}
+aside.left_wrap ol{
+	margin-bottom: 13px;
+	display: none;
+}
+
+aside.left_wrap ol li:hover a{
+	color: #f36;
+}
+aside.left_wrap span.fir{
+	transform: rotate(-135deg);
+}
+
+aside.right_wrap{
+	float: right;
+	width: 1040px;
+}
+aside.right_wrap>div{
+	margin-top: 20px;
+}
+aside.right_wrap div.card p.head{
+	border-bottom: 1px solid #ddd;
+	overflow: hidden;
+	padding-left: 30px;
+	box-sizing: border-box;
+}
+div.card p.head span{
+	cursor: pointer;
+	float: left;
+	font-weight: 700;
+	background-color: #f8f9f9;
+	border: 1px solid #ddd;
+	line-height: 45px;
+	width: 158px;
+	text-align: center;
+	margin-right: 3px;
+	border-radius: 5px 5px 0 0;
+	color: #666;
+	margin-bottom: -1px;
+}
+div.card p.head span.white{
+	background-color: #fff;
+	color: #333;
+}
+div.card aside.time>p{
+	overflow: hidden;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+div.card aside.time>p span{
+	cursor: pointer;
+	float: left;
+	line-height: 34px;
+	border-bottom: 2px solid transparent;
+	font-size: 14px;
+	color: #333;
+	margin-right: 20px;
+}
+div.card aside.time>p span.pink{
+	color: #ff5777;
+    border-bottom-color: #ff5777;
+}
+div.card div.quan{
+	padding: 10px;
+	font-size: 14px;
+	color: #333;
+	box-sizing: border-box;
+	margin-top: 20px;
+}
+div.card div.intro p.it_p{
+	margin-top: 30px;
+	padding-left: 8px;
+	border-left: 8px solid #ffb1c4;
+	background-color: #f5f5f5;
+	font-size: 20px;
+	line-height: 32px;
+	box-sizing: border-box;
+}
+div.card div.intro ul{
+	overflow: hidden;
+	padding: 10px;
+	box-sizing: border-box;
+}
+div.card div.intro ul>li{
+	margin: 10px;
+	float: left;
+	width: 318px;
+	height: 160px;
+	border-radius: 5px;
+    border: 1px solid #ff5777;
+    background-color: #faf0ef;
+}
+div.card div.intro aside.re_lf{
+	float: left;
+	width: 200px;
+	height: 140px;
+	padding: 10px;
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    border-right: 1px dashed #ff5777;
+    position: relative;
+}
+div.card div.intro aside.re_lf::before{
+	content: '';
+	position: absolute;
+	width: 32px;
+	height: 16px;
+	border: 1px solid #ff5777;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	background: #fff;
+	top: -1px;
+	right: -17px;
+	border-top-color: transparent;
+}
+div.card div.intro aside.re_lf::after{
+	content: '';
+	position: absolute;
+	width: 32px;
+	height: 16px;
+	border: 1px solid #ff5777;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	background: #fff;
+	bottom: -1px;
+	right: -17px;
+	border-bottom-color: transparent;
+}
+div.card aside.re_lf p{
+	font-size: 12px;
+	color: #717380;
+	line-height: 19px;
+	overflow: hidden;
+}
+div.card aside.re_lf p.on span:first-child{
+	font-size: 14px;
+    color: #434343;
+    line-height: 22px;
+}
+div.card aside.re_lf p.on span:last-child{
+	float: right;
+}
+
+div.card aside.re_lf p.tw span{
+	font-size: 20px;
+    color: #434343;
+    font-weight: bold;
+    line-height: 24px;
+}
+div.card aside.re_lf p.tw b{
+	font-size: 24px;
+	line-height: 42px;
+}
+div.card aside.re_lf p.four span:last-child{
+	width: 140px;
+    float: right;
+}
+div.card div.intro aside.re_rg{
+	float: right;
+	width: 97px;
+	height: 100%;
+	text-align: center;
+}
+div.card aside.re_rg p{
+	display: inline-block;
+	margin-top: 47px;
+	cursor: pointer;
+	font-size: 20px;
+	color: #ff5777;
+	width: 40px;
+	line-height: 32px;
+}
+
+footer{
+	margin: 60px auto 54px;
+	width: 1200px;
+}
+footer ul{
+	border-bottom: 2px solid #ff5777;
+}
+footer ul a:hover{
+	color: #ff5777;
+}
+footer ul>li{
+	float: left;
+	width: 25%;
+	height: 100px;
+}
+footer b{
+	font-size: 13px;
+	margin-left: 44px;
+	color: #666666;
+}
+footer ol{
+	margin-left: 20px;
+	width: 200px;
+	margin-top: 15px;
+}
+footer ul::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+footer ol::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+footer ol>li{
+	float: left;
+	width: 80px;
+	font-size: 12px;
+	 line-height: 21px;
+	 color: #999999;
+}
+footer a{
+	 font-size: 12px;
+	line-height: 21px;
+	text-decoration: none;
+	color: #999999; 
+}
+footer .four li{
+	width: 66px;
+	position: relative;
+}
+footer .four img{
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	top: 22px;
+	left: -14px;
+	display: none;
+}
+footer .four li:hover img{
+	display: inline-block;
+}
+footer div{
+	width: 946px;
+	margin-top: 5px;
+}
+footer .spa a{
+	font-size: 12px;
+	color: #666666;
+	line-height: 22px;
+	display: inline-block;
+	width: 80px;
+	margin-right: -8px;
+}
+footer .spa a:hover{
+	color: #ff5777;
+}
+footer .spa2{
+	font-size: 12px;
+	line-height: 28px;
+	color: #999999; 
+}
+footer .spa2 span{
+	border-right: 1px solid #999999;
+	padding-right: 9px;
+	padding-left: 2px;
+}
+footer .spa2 a{
+	font-size: 12px;
+	line-height: 27px;
+}
+footer .spa span{
+	font-size: 12px;
+	color: #999999; 
+	line-height: 22px;
+	/* float: left; */
+}
+footer .spa2 span:nth-of-type(1){
+	padding-left: 0px;
+}
+.a1{
+	font-family: "PingFang SC","Times New Roman","Microsoft YaHei","\5FAE\8F6F\96C5\9ED1",STXihei,"\534E\6587\7EC6\9ED1",serif;
+
+}
+.nav{
+	width: 30px;
+	position: fixed;
+	height: 100%;
+	top: 0px;
+	right: 0px;
+	background: rgba(0, 0, 0, 0.8);
+	padding-top: 60px;
+	text-align: center;
+
+}
+.nav a{
+	width: 22px;
+	color: #fff;
+	text-decoration: none;
+	padding: 13px 0px;
+	font-size: 12px;
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+	display: inline-block;
+}
+.nav div{
+	cursor: pointer;
+}
+.nav div:hover{
+	background: red;
+}
+.nav-sprite{
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background: url('../images/sprite.png');
+	background-position: -272px -135px;
+}
+.nav img{
+	position: absolute;
+	top: -10px;
+	left: -175px;
+	display: none;
+}
+.nav .img:hover img{
+	display: inline-block;
+}
+.nav .img{
+	position: relative;
+}
+.nav .card{
+	background-position: -272px -166px;
+}
+.nav .wallet{
+	background-position: -272px -226px;
+}
+.nav .foot{
+	background-position: -272px -194px;
+}
+.nav .scan{
+	display: inline-block;
+	background: url('../images/180521_8d03604744igdgagjk7iggg44lkeb_16x16.png') no-repeat;
+	width:16px;
+	height:16px;
+	background-size: 100% 100%;
+}
+.nav .top{
+	position: absolute;
+	bottom: 60px;
+	right: 0px;
+	width: 100%;
+	background: #333;
+ 	display: none; 
+}
+.nav .top a{
+	border-bottom: none;
+	border-top: 1px solid #ccc;
+	line-height: 44px;
+	padding: 0px;
+}
+.nav .top .nav-sprite{
+	background-position: -273px -284px;
+	width: 18px;
+	height: 18px;
+}
+
 
 
 
